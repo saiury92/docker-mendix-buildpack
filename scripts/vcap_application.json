@@ -1,9 +1,11 @@
 {
   "application_name": "dockerexample",
-  "application_uris": [ "docker-buildpack.example.com" ],
-   "limits": {
-     "disk": 1024,
-     "fds": 16384,
-     "mem": 1024
-   }
+  "application_uris": [
+    "docker-buildpack.example.com"
+  ],
+  "limits": {
+    "disk": 2048,
+    "fds": 16384,
+    "mem": 16384
+  }
 }
